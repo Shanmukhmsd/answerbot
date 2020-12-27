@@ -244,8 +244,8 @@ class Bot(discord.Client):
 
         await self.clear_results()
         await self.update_embeds()
-        #await self.change_presence(activity=discord.Game(name='With I Am Best Bot Ever Made By ┻━┻◥ʙ ᴏ ꜱ ꜱ ➈™࿐ ...'))
-        await self.change_presence(activity=discord.Activity(type=1,name=' I Am Captain Cool'))
+        #await self.change_presence(activity=discord.Game(name='With I Am Best Bot Ever Made By shanmukh'))
+        await self.change_presence(activity=discord.Activity(type=1,name='shanmukh'))
 
     async def on_message(self, message):
 
@@ -296,7 +296,7 @@ def bot_with_cyclic_update_process(update_event, answer_scores):
     upd_thread.start()
 
     loop = asyncio.get_event_loop()
-    loop.create_task(bot.start('Nzg4MDYxMDQ1ODA0NzYxMTE4.X9eBCg.ePcU1plkajIyy8_RbY0SHmgVT40'))
+    loop.create_task(bot.start('NzkyNjE3NjYwNjE2NTQwMTkw.X-gUuA.YPSKl97H1mPimqIZi2lB1ZgPlqk'))
     loop.run_forever()
 
 
